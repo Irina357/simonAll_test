@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">SimonEasy</router-link>
+      <router-link to="/SimonMiddle">SimonMiddle</router-link>
+      <router-link to="/SimonDifficult">SimonDifficult</router-link>
     </div>
     <router-view/>
   </div>
@@ -23,6 +24,7 @@
   a {
     font-weight: bold;
     color: #2c3e50;
+    margin-left: 15px;
 
     &.router-link-exact-active {
       color: #42b983;
